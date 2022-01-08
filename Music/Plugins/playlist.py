@@ -105,10 +105,10 @@ options = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", 
 
 @app.on_message(filters.command("playlist"))
 async def pause_cmd(_, message):
-    thumb ="cache/IMG_20211129_031406_576.jpg"
+    thumb ="https://telegra.ph/file/5d497dbf01502973b1b3e.jpg"
     await message.reply_photo(
     photo=thumb, 
-    caption=("**__Music's Playlist Feature__**\n\nSelect The Playlist, You want to check!"),    
+    caption=("**__Fitur Daftar Putar Musik__**\n\nPilih Daftar Putar, yang ingin Anda periksa!"),    
     reply_markup=play_list_keyboard) 
     return 
 
