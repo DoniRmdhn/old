@@ -1,9 +1,9 @@
 {
-    "name": "Sayonara music stream",
+    "name": "Arsya music stream",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
     "logo": ["https://telegra.ph/file/0b815fcecd6a7da9a4c89.jpg"],
-    "repository": "https://github.com/krisnadiwangga/sayonara-musicvideo",
+    "repository": "https://github.com/Arsyabot/sayonaramusicstream",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
