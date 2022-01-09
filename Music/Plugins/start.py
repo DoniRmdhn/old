@@ -30,7 +30,14 @@ def start_pannel():
             InlineKeyboardButton(text=f"ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
-            InlineKeyboardButton(text=f"ᴏᴡɴᴇʀ​", url=f"https://t.me/{PEMILIK}"),
+            InlineKeyboardButton("📚 ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ ᴍᴜꜱɪᴋ​ 📚", url="https://t.me/ruangprojects/25"),
+        ],
+        [
+            InlineKeyboardButton("🎞️ ᴋᴜᴍᴘᴜʟᴀɴ ꜰɪʟᴍ​ 🎞️", url="https://t.me/RuangFilmID"),
+            InlineKeyboardButton("👥 ᴄᴀʀɪ ᴋᴇɴᴀʟᴀɴ ᴏɴʟɪɴᴇ 👥", url="https://t.me/RuangKenalan"),
+        ],
+        [
+            InlineKeyboardButton(text=f"ᴘᴇᴍɪʟɪᴋ ʙᴏᴛ", url=f"https://t.me/{PEMILIK}"),
         ],
     ]
     return (
@@ -50,7 +57,14 @@ pstart_markup = InlineKeyboardMarkup(
             InlineKeyboardButton(text=f"ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
-            InlineKeyboardButton(text=f"ᴏᴡɴᴇʀ​", url=f"https://t.me/{PEMILIK}"),
+            InlineKeyboardButton("📚 ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ ᴍᴜꜱɪᴋ​ 📚", url="https://t.me/ruangprojects/25"),
+        ],
+        [
+            InlineKeyboardButton("🎞️ ᴋᴜᴍᴘᴜʟᴀɴ ꜰɪʟᴍ​ 🎞️", url="https://t.me/RuangFilmID"),
+            InlineKeyboardButton("👥 ᴄᴀʀɪ ᴋᴇɴᴀʟᴀɴ ᴏɴʟɪɴᴇ 👥", url="https://t.me/RuangKenalan"),
+        ],
+        [
+            InlineKeyboardButton(text=f"ᴘᴇᴍɪʟɪᴋ ʙᴏᴛ", url=f"https://t.me/{PEMILIK}"),
         ],
     ]
 )
@@ -123,7 +137,7 @@ async def play(_, message: Message):
 
 💬 [{BOT_NAME}](t.me/{BOT_USERNAME}) memungkinkan anda untuk memutar musik pada grup melalui obrolan suara yang baru di Telegram!
 
-💡 Untuk Mengetahui Semua Perintah Bot Dan Bagaimana Cara Kerja Nya Dengan Menekan Tombol » 📚 ᴄᴏᴍᴍᴀɴᴅ​!**
+💡 Untuk Mengetahui Semua Perintah Bot Dan Bagaimana Cara Kerja Nya Dengan Menekan Tombol » 📚 ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ ᴍᴜꜱɪᴋ!**
 
 """,
             parse_mode="markdown",
