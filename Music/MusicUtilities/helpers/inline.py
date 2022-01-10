@@ -16,9 +16,6 @@ def play_markup(videoid, user_id):
         [
             InlineKeyboardButton("📚 ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ ᴍᴜꜱɪᴋ​ 📚", url="https://t.me/ruangprojects/47"),
         ],
-        [
-            InlineKeyboardButton("🎞️ ᴋᴜᴍᴘᴜʟᴀɴ ꜰɪʟᴍ​ 🎞️", url="https://t.me/RuangFilmID"),
-        ],
         [      
                 InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}")
         ],
