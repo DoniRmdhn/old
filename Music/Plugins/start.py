@@ -33,9 +33,6 @@ def start_pannel():
             InlineKeyboardButton("📚 ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ ᴍᴜꜱɪᴋ​ 📚", url="https://t.me/ruangprojects/47"),
         ],
         [
-            InlineKeyboardButton("🎞️ ᴋᴜᴍᴘᴜʟᴀɴ ꜰɪʟᴍ​ 🎞️", url="https://t.me/RuangFilmID"),
-        ],
-        [
             InlineKeyboardButton(text=f"ᴘᴇᴍɪʟɪᴋ ʙᴏᴛ", url=f"https://t.me/{PEMILIK}"),
         ],
     ]
