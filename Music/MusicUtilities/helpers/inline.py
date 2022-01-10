@@ -10,8 +10,15 @@ from pyrogram.types import (
 def play_markup(videoid, user_id):
     buttons = [
         [
-            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}"),
+            InlineKeyboardButton(text=f"sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_GROUP}"),
+            InlineKeyboardButton(text=f"ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+        ],
+        [
+            InlineKeyboardButton("📚 ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ ᴍᴜꜱɪᴋ​ 📚", url="https://t.me/ruangprojects/25"),
+        ],
+        [
+            InlineKeyboardButton("🎞️ ᴋᴜᴍᴘᴜʟᴀɴ ꜰɪʟᴍ​ 🎞️", url="https://t.me/RuangFilmID"),
+            InlineKeyboardButton("👥 ᴄᴀʀɪ ᴋᴇɴᴀʟᴀɴ ᴏɴʟɪɴᴇ 👥", url="https://t.me/RuangKenalan"),
         ],
         [      
                 InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}")
