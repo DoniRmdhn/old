@@ -14,11 +14,10 @@ def play_markup(videoid, user_id):
             InlineKeyboardButton(text=f"ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("📚 ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ ᴍᴜꜱɪᴋ​ 📚", url="https://t.me/ruangprojects/25"),
+            InlineKeyboardButton("📚 ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ ᴍᴜꜱɪᴋ​ 📚", url="https://t.me/ruangprojects/47"),
         ],
         [
             InlineKeyboardButton("🎞️ ᴋᴜᴍᴘᴜʟᴀɴ ꜰɪʟᴍ​ 🎞️", url="https://t.me/RuangFilmID"),
-            InlineKeyboardButton("👥 ᴄᴀʀɪ ᴋᴇɴᴀʟᴀɴ ᴏɴʟɪɴᴇ 👥", url="https://t.me/RuangKenalan"),
         ],
         [      
                 InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}")
