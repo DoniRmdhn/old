@@ -1,9 +1,9 @@
 {
-    "name": "Arsya music stream",
+    "name": "ALBY music stream",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
     "logo": ["https://telegra.ph/file/0b815fcecd6a7da9a4c89.jpg"],
-    "repository": "https://github.com/Arsyabot/sayonaramusicstreamfix",
+    "repository": "https://github.com/PunyaAlby",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -13,7 +13,7 @@
         "OWNER_ID": {
             "description": "fill with your telegram id as the owner of the bot",
             "required": true,
-            "value": "1977978893"
+            "value": "5089916692"
         },
         "ASS_ID": {
             "description": "fill with telegram id of account",
