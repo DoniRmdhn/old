@@ -1,3 +1,13 @@
+# Created by @punya_alby
+# FROM ALBY-Userbot <https://github.com/PunyaAlby/ALBY-Userbot>
+# ░█████╗░██╗░░░░░██████╗░██╗░░░██╗
+# ██╔══██╗██║░░░░░██╔══██╗╚██╗░██╔╝
+# ███████║██║░░░░░██████╦╝░╚████╔╝░
+# ██╔══██║██║░░░░░██╔══██╗░░╚██╔╝░░
+# ██║░░██║███████╗██████╦╝░░░██║░░░
+# ╚═╝░░╚═╝╚══════╝╚═════╝░░░░╚═╝░░░
+# ⚠️ Do not remove credits ⚠️
+
 import asyncio
 
 from pyrogram import filters
