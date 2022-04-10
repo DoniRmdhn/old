@@ -1,8 +1,8 @@
-#### SAYONARA MUSIC STREAM 🎼
+#### ALBY MUSIC STREAM 🎼
 
 
 <p align="center">
-   <img src="https://telegra.ph/file/665d722d8eab95f49d86b.jpg"> 
+   <img src="https://telegra.ph/file/b1db10c478f87fa7c6cb4.jpg"> 
 </p>
 
 ### DEPLOY TO HEROKU TOD!
@@ -41,10 +41,11 @@ Get pyrogram (p)  `SESSION` from here:
 
 
 #### Special Credits
+- [『ⒶⓁⒷⓎ』](https://github.com/PunyaAlby) Dev
 - [Sayonara](https://github.com/krisnadiwangga) Dev
 - [Kyy](https://github.com/UserLazy) Dev
 - [alldev](https://t.me/sayonara_story/276) all dev
 
 ### Support & Updates 🎑
-<a href="https://t.me/NaraXmusic"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/sayonara_story"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/ruangdiskusikami"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/ruangprojects"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
