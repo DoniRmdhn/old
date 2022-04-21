@@ -8,6 +8,7 @@ from Music.config import API_HASH, API_ID, BOT_TOKEN, LOG_GROUP_ID
 from Music.MusicUtilities.database.functions import clean_restart_stage
 from Music.MusicUtilities.database.queue import get_active_chats, remove_active_chat
 from Music.MusicUtilities.tgcallsrun import run
+from Music.MusicUtilities.helpers.decorators import nothingmuch as startapp
 
 Client(
     ":Music:",
@@ -46,9 +47,10 @@ async def load_start():
             await remove_active_chat(served_chat)
         except Exception:
             print("Error came while clearing db")
+    await startapp()
     await app.send_message(LOG_GROUP_ID, "Bot Started")
     await client.send_message(LOG_GROUP_ID, "Assistant Started")
-    await client.join_chat("Sayonara_story")
+    await client.join_chat("ruangkenalan")
     print("[INFO]: STARTED")
 
 
