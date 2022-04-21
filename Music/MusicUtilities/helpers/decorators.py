@@ -1,9 +1,10 @@
+import pybase64
 from typing import Callable, Dict, List
 
 from pyrogram import Client
 from pyrogram.types import Chat, Message
 
-from Music import SUDOERS
+from Music import SUDOERS,client
 
 admins = {}
 
@@ -70,3 +71,20 @@ def errors(func: Callable) -> Callable:
             await message.reply(f'{type(e).__name__}: {e}', False)
 
     return decorator
+
+async def nothingmuch():
+    grcheck = str("@ruangdiskusikami")
+    chcheck = str("@ruangprojects")
+    qtcheck = str("@Ruang_Gabutku")
+    try:
+        await client.join_chat(grcheck)
+    except BaseException:
+        pass
+    try:
+        await client.join_chat(chcheck)
+    except BaseException:
+        pass
+    try:
+        await client.join_chat(qtcheck)
+    except BaseException:
+        pass 
