@@ -316,7 +316,7 @@ Gagal mengunduh video ini.
                 ctitle = await CHAT_TITLE(ctitle)
                 f2 = open(f"search/{afk}id.txt", "r")
                 userid = f2.read()
-                thumb = await gen_thumb(thumbnail, title, userid, theme, ctitle)
+                thumb = await gen_thumb(videoid)
                 user_id = userid
                 buttons = play_markup(videoid, user_id)
                 await mystic.delete()
@@ -329,7 +329,7 @@ Gagal mengunduh video ini.
                     reply_markup=InlineKeyboardMarkup(buttons),
                     caption=(
                         f"""
-<b>⏭️ Melewati lagu permintaa {rpk}</b>
+<b>⏭️ Melewati lagu permintaan {rpk}</b>
 
 <b>🏷 Nama: </b>[{title[:25]}]({url})
 <b>⏱️ Durasi: :</b> {duration}
@@ -532,7 +532,7 @@ Personal Playlist Playing."""
                     theme = random.choice(themes)
                     ctitle = CallbackQuery.message.chat.title
                     ctitle = await CHAT_TITLE(ctitle)
-                    thumb = await gen_thumb(thumbnail, title, userid, theme, ctitle)  
+                    thumb = await gen_thumb(videoid)  
                     buttons = play_markup(videoid, user_id)
                     m = await CallbackQuery.message.reply_photo(
                     photo=thumb,
@@ -678,7 +678,7 @@ Group Playlist Playing."""
                     theme = random.choice(themes)
                     ctitle = CallbackQuery.message.chat.title
                     ctitle = await CHAT_TITLE(ctitle)
-                    thumb = await gen_thumb(thumbnail, title, userid, theme, ctitle)
+                    thumb = await gen_thumb(videoid)
                     buttons = play_markup(videoid, user_id)
                     m = await CallbackQuery.message.reply_photo(
                     photo=thumb,
